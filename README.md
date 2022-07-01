@@ -16,6 +16,6 @@
 
 
 # 참고
-[도서 공식 링크](http://www.acornpub.co.kr/book/reactjs-springboot#toc)
-[도서 정오표](http://www.acornpub.co.kr/book/reactjs-springboot#errata)
-[공식 레포지토리 링크](https://github.com/fsoftwareengineer/todo-application)
+- [도서 공식 링크](http://www.acornpub.co.kr/book/reactjs-springboot#toc)
+- [도서 정오표](http://www.acornpub.co.kr/book/reactjs-springboot#errata)
+- [공식 레포지토리 링크](https://github.com/fsoftwareengineer/todo-application)

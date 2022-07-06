@@ -2,7 +2,7 @@
 
 # 배포할 애플리케이션의 아키텍처
 
-![image-20220705165351198](C:\Users\meplz-new\AppData\Roaming\Typora\typora-user-images\image-20220705165351198.png)
+![image-20220705165351198](https://user-images.githubusercontent.com/85017704/177451900-ba5407d5-7435-4dcc-b102-d71fe38d559c.png)
 
 - 프론트엔드와 백엔드 서버가 분리되었음
 - 브라우저는 백엔드의 REST API를 이용해 HTTP요청을 보냄
@@ -19,7 +19,7 @@
 - - 
 
 # 정적 웹 서버(Static Web Server)
-- ![image-20220706100635710](C:\Users\meplz-new\AppData\Roaming\Typora\typora-user-images\image-20220706100635710.png)
+- ![image-20220706100635710](https://user-images.githubusercontent.com/85017704/177451920-6763bdfa-99ca-44c0-96d5-d17220292823.png)
 - HTTP 서버 중에서 리소스 파일을 리턴하는 서버
 - Http 응답바디에 리소스파일을 아무 작업 없이 그대로 리턴
   - 따라서 어떤 클라이언트가 요청하든 같은 응답을 리턴함.
@@ -27,7 +27,7 @@
 - 정적 웹 서버 ex) 아파치, Nginx
 
 # 동적 웹 서버(Dynamic Web Server)
-- ![image-20220706101003418](C:\Users\meplz-new\AppData\Roaming\Typora\typora-user-images\image-20220706101003418.png)
+- ![image-20220706101003418](https://user-images.githubusercontent.com/85017704/177451954-71fb326e-13ca-412d-96e1-898f3c781060.png)
 - 요청을 처리한 후 처리한 결과에 따라 응답 바디를 재구성하거나 HTML 템플릿 파일에 결과를 대체해 보냄.
   - 따라서 클라이언트에 따라, 어떤 매개변수를 보내는지에 따라 같은 요청이라도 다른 응답을 받음
 - 자바 프로그램 중 동적 웹 서버 구현을 도와주는 프로그램 = 서블릿 엔진 ex) 아파치 톰캣
@@ -36,7 +36,7 @@
 
 # 자바 서블릿 컨테이너/엔진
 
-- ![image-20220706105427590](C:\Users\meplz-new\AppData\Roaming\Typora\typora-user-images\image-20220706105427590.png)
+- ![image-20220706105427590](https://user-images.githubusercontent.com/85017704/177451978-da9235f7-dbb2-4146-8dc6-2afa7da15bd8.png)
 - 서블릿 컨테이너 또는 서블릿 엔진은 서버 프로그램임.
 - 서블릿 엔진 설치 후 서블릿 엔진에게 개발한 비지니스 로직, 즉 클래스 파일과 해당 클래스 파일을 어느 요청에서 실행해야 하는지 알려줘야함. 
   - 이때 서블릿 엔진이 이해할 수 있는 형태로 클래스 파일을 작성해야함.

@@ -139,4 +139,4 @@ public class TodoController {
 ```
 
 특히 람다표현식의 Method Reference Expressions을 몰라서 java 1.8 language specification까지 찾아봤다. 알게되니 별거 아니였다!
-[Method Reference Expressions 찾은 포스팅]()
+[Method Reference Expressions 찾은 포스팅](https://sowon-dev.github.io/2022/07/07/220708DouleColonOperator/)

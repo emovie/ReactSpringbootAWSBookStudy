@@ -1,4 +1,6 @@
 # 목차😎
+- [Node.js](#nodejs)
+- [브라우저 동작 원리](#브라우저-동작-원리)
 
 <small><a href='https://magnetikonline.github.io/markdown-toc-generate/'> *Table of contents generated with markdown-toc</a></small>
 
@@ -12,3 +14,4 @@
 
 <br><br><br><br>
 # 브라우저 동작 원리
+[SPA 동작 순서](https://sowon-dev.github.io/2022/07/11/220712React-spa/)
